@@ -66,7 +66,6 @@ contract FundSubscription is CodeConstants, Script {
         address vrfCoordinatorV2_5 = helperConfig.getConfig().vrfCoordinatorV2_5;
         address link = helperConfig.getConfig().link;
         address account = helperConfig.getConfig().account;
-        
 
         if (subId == 0) {
             CreateSubscription createSub = new CreateSubscription();
